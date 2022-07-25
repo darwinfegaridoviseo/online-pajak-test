@@ -1,0 +1,20 @@
+{
+  "name": "dev-test-atm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.4.3",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
